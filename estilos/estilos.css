@@ -1,0 +1,284 @@
+body{
+    background-color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+h2 {
+    margin-left: 10%;
+}
+div>p {
+    font-size: 0.8em;
+    color: rgb(124, 121, 121);
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+#titulo{
+    width:300px;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+
+/* Formulario index */
+#formulario {
+    background-color: #393939;
+    color: white;
+    box-shadow: 0px 0px 24px 5px #393939;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    width:400px;
+    height: 400px;
+}
+#formulario > label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 1em;
+    height: 16px;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+#formulario > input {
+    background: transparent;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 80%;
+    margin-left: 10%;
+    border: 0px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgb(0, 210, 255), rgb(58, 123, 213));
+    border-image-slice: 1;
+  }
+
+  #formulario >#btnIntro {
+    color: #89898f;
+    margin-top: 30px;
+    border: 0;
+    transition: 300ms;
+    font-size: 1.5em;
+  }
+
+  #formulario >#btnIntro:hover {
+    color: #f2f2f2;
+
+  }
+  #formulario >#btnIntro:focus {
+    color: #f2f2f2;
+  }
+  #formulario >#btnIntro:active {
+    color: #d0d0d2;
+  }
+
+  #formulario >#check{
+      margin-top: 40px;
+      margin-left: 50px;
+      font-size: 0.8em;
+      color: lightgray;
+  }
+  #formulario >#chkSesion {
+    height: 15px;
+    margin-right: 20px;
+  }
+  #formTabla > fieldset {
+    background-color: aliceblue;
+  }
+/* Formulario login */
+  #formTabla > input {
+    margin: 0 auto;
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  #fomTabla > label {
+    margin: 5px;
+  }
+
+  #btnForm {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:1em;
+    padding:5px 8px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    margin-left: 20px;
+  }
+
+  /* Formulario registro */
+  #formularioRegistro {
+    background-color: #393939;
+    color: white;
+    box-shadow: 0px 0px 24px 5px #393939;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    width:400px;
+    height: 400px;
+}
+#formularioRegistro > label {
+    color:  #c2c2c5;
+    display: block;
+    font-size: 1em;
+    height: 16px;
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+#formularioRegistro > input {
+    background: transparent;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 80%;
+    margin-left: 10%;
+    border: 0px;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to right, rgb(255, 238, 0), rgb(231, 168, 32));
+    border-image-slice: 1;
+  }
+
+  #formularioRegistro >#btnIntro {
+    color: #89898f;
+    margin-top: 30px;
+    border: 0;
+    transition: 300ms;
+    font-size: 1.5em;
+  }
+
+  #formularioRegistro >#btnIntro:hover {
+    color: #f2f2f2;
+
+  }
+  #formularioRegistro >#btnIntro:focus {
+    color: #f2f2f2;
+  }
+  #formularioRegistro >#btnIntro:active {
+    color: #d0d0d2;
+  }
+
+  #formularioRegistro >#check{
+      margin-top: 40px;
+      margin-left: 50px;
+      font-size: 0.8em;
+      color: lightgray;
+  }
+  #formularioRegistro >#chkSesion {
+    height: 15px;
+    margin-right: 20px;
+  }
+  #formularioRegistro > fieldset {
+    background-color: aliceblue;
+  }
+  /* Boton registro */
+  #btnRegistro{
+    float: right;
+  }
+  #btnRegistro:link,  #btnRegistro:visited {
+    background-color: rgb(58, 123, 213);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #btnRegistro:hover,  #btnRegistro:active {
+    background-color: rgb(16, 95, 206);
+  }
+
+  /* Boton carga de BD */
+  #btnCarga {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    background-color:#c62d1f;
+    border-radius:14px;
+    border:1px solid #d02718;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:17px;
+    padding:11px 25px;
+    text-decoration:none;
+    text-shadow:0px 3px 0px #810e05;
+  }
+  #btnCarga:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color:#f24437;
+  }
+  #btnCarga:active {
+    position:relative;
+    top:1px;
+  }
+
+/* Boton eliminar checkbox */
+#btnEliminarChk {
+  float: right;
+  margin-right:10%;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+#btnEliminarChk:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+#btnEliminarChk:active {
+	position:relative;
+	top:1px;
+}
+
+/* Btono cerrar sesion */
+#btnSalir {
+  position: absolute;
+  top: 30px;
+  margin-left:100px;
+  box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+
+#bntSalir:hover {
+	background-color:#eb675e;
+}
